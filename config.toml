@@ -14,6 +14,7 @@ enabledGitInfo = true
  [params]
  defaulTheme = "dark"
  title = "Дневник стартапера"
+ images = ["/logo.png"]
 
 
 [languages]
@@ -80,3 +81,12 @@ enabledGitInfo = true
       post = ""
       typeit = false
 
+[params.page.seo]
+      # image URL
+      # 图片 URL
+      images = []
+      # Publisher info
+      # 出版者信息
+      [params.page.seo.publisher]
+        name = "Дневник стартапера"
+        logoUrl = "/images/avatar.png"

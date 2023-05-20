@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Как улучшить свой код Kotlin - Дневник Стартапера</title><meta name="Description" content="Блог о разработке и заработке на мобильных приложениях"><meta property="og:title" content="Как улучшить свой код Kotlin" />
+<meta property="og:description" content="Кotlin - это мощный и гибкий язык программирования, который может значительно улучшить ваш код. Ниже приведены несколько советов, которые помогут вам улучшить свой код Kotlin.
+1. Использование функций расширения Функции расширения - это способ добавления новых методов в класс без необходимости изменения самого класса. Kotlin позволяет использовать функции расширения для любого класса, даже для классов стандартной библиотеки.
+fun String.isEmailValid(): Boolean { val pattern = &#34;[a-zA-Z0-9._-]&#43;@[a-z]&#43;\\\\.&#43;[a-z]&#43;&#34;.toRegex() return matches(pattern) } 2. Неизменяемые переменные Kotlin позволяет объявлять переменные, которые нельзя изменять после их объявления." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://zhirnoov.github.io/posts/how-kotlin-code/" /><meta property="og:image" content="https://zhirnoov.github.io/posts/how-kotlin-code/featured-image.jpg"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-05-20T18:06:11+03:00" />
+<meta property="article:modified_time" content="2023-05-20T18:06:11+03:00" /><meta property="og:site_name" content="Дневник стартапера" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://zhirnoov.github.io/posts/how-kotlin-code/featured-image.jpg"/>
+<meta name="twitter:title" content="Как улучшить свой код Kotlin"/>
+<meta name="twitter:description" content="Кotlin - это мощный и гибкий язык программирования, который может значительно улучшить ваш код. Ниже приведены несколько советов, которые помогут вам улучшить свой код Kotlin.
+1. Использование функций расширения Функции расширения - это способ добавления новых методов в класс без необходимости изменения самого класса. Kotlin позволяет использовать функции расширения для любого класса, даже для классов стандартной библиотеки.
+fun String.isEmailValid(): Boolean { val pattern = &#34;[a-zA-Z0-9._-]&#43;@[a-z]&#43;\\\\.&#43;[a-z]&#43;&#34;.toRegex() return matches(pattern) } 2. Неизменяемые переменные Kotlin позволяет объявлять переменные, которые нельзя изменять после их объявления."/>
+<meta name="application-name" content="My cool site">
+<meta name="apple-mobile-web-app-title" content="My cool site"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://zhirnoov.github.io/posts/how-kotlin-code/" /><link rel="prev" href="https://zhirnoov.github.io/posts/my-first-post/" /><link rel="next" href="https://zhirnoov.github.io/posts/how-kotlin-code/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Как улучшить свой код Kotlin",
+        "inLanguage": "",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/zhirnoov.github.io\/posts\/how-kotlin-code\/"
+        },"image": [{
+                            "@type": "ImageObject",
+                            "url": "https:\/\/zhirnoov.github.io\/posts\/how-kotlin-code\/featured-image.jpg",
+                            "width":  2363 ,
+                            "height":  1269 
+                        }],"genre": "posts","wordcount":  305 ,
+        "url": "https:\/\/zhirnoov.github.io\/posts\/how-kotlin-code\/","datePublished": "2023-05-20T18:06:11+03:00","dateModified": "2023-05-20T18:06:11+03:00","license": "Дневник Стартапера","publisher": {
+            "@type": "Organization",
+            "name": "Дневник стартапера","logo": {
+                    "@type": "ImageObject",
+                    "url": "https:\/\/zhirnoov.github.io\/images\/avatar.png",
+                    "width":  528 ,
+                    "height":  560 
+                }},"author": {
+                "@type": "Person",
+                "name": "Cтартапер"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Дневник Стартапера"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw'></i></span>Дневник стартапера</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Блог </a><a class="menu-item" href="/about/"> Обо мне </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item theme-switch" title="Сменить Тему">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Дневник Стартапера"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw'></i></span>Дневник стартапера</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="">Блог</a><a class="menu-item" href="/about/" title="">Обо мне</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Сменить Тему">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Содержание</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Как улучшить свой код Kotlin</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Cтартапер</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-05-20">2023-05-20</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;305 слов&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;2 минут&nbsp;</div>
+        </div><div class="featured-image"><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/posts/how-kotlin-code/featured-image.jpg"
+        data-srcset="/posts/how-kotlin-code/featured-image.jpg, /posts/how-kotlin-code/featured-image.jpg 1.5x, /posts/how-kotlin-code/featured-image.jpg 2x"
+        data-sizes="auto"
+        alt="/posts/how-kotlin-code/featured-image.jpg"
+        title="/posts/how-kotlin-code/featured-image.jpg" /></div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Содержание</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#1-использование-функций-расширения">1. Использование функций расширения</a></li>
+    <li><a href="#2-неизменяемые-переменные">2. Неизменяемые переменные</a></li>
+    <li><a href="#3-null-safety">3. Null-safety</a></li>
+    <li><a href="#4-использование-when-вместо-switch">4. Использование when вместо switch</a></li>
+    <li><a href="#5-использование-inline-функций">5. Использование inline функций</a></li>
+    <li><a href="#6-использование-data-class">6. Использование data class</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><p>Кotlin - это мощный и гибкий язык программирования, который может значительно улучшить ваш код. Ниже приведены несколько советов, которые помогут вам улучшить свой код Kotlin.</p>
+<h2 id="1-использование-функций-расширения">1. Использование функций расширения</h2>
+<p>Функции расширения - это способ добавления новых методов в класс без необходимости изменения самого класса. Kotlin позволяет использовать функции расширения для любого класса, даже для классов стандартной библиотеки.</p>
+<pre tabindex="0"><code>fun String.isEmailValid(): Boolean {
+    val pattern = &#34;[a-zA-Z0-9._-]+@[a-z]+\\\\.+[a-z]+&#34;.toRegex()
+    return matches(pattern)
+}
+</code></pre><h2 id="2-неизменяемые-переменные">2. Неизменяемые переменные</h2>
+<p>Kotlin позволяет объявлять переменные, которые нельзя изменять после их объявления. Это помогает избежать ошибок, связанных с изменением переменных в непреднамеренных местах.</p>
+<pre tabindex="0"><code>val name: String = &#34;John&#34;
+</code></pre><h2 id="3-null-safety">3. Null-safety</h2>
+<p>Kotlin имеет встроенную поддержку null-безопасности, что означает, что вы можете защитить свой код от ошибок, связанных с null-значениями. Kotlin обязывает программиста явно указывать, когда переменная может быть null-значением.</p>
+<pre tabindex="0"><code>var name: String? = null
+</code></pre><h2 id="4-использование-when-вместо-switch">4. Использование when вместо switch</h2>
+<p>Kotlin предлагает более гибкий и мощный оператор when вместо стандартного switch в Java. Оператор when позволяет проверять значения переменных на равенство сразу с несколькими значениями.</p>
+<pre tabindex="0"><code>when (x) {
+    1 -&gt; print(&#34;x = 1&#34;)
+    2 -&gt; print(&#34;x = 2&#34;)
+    else -&gt; {
+        print(&#34;x не является ни 1, ни 2&#34;)
+    }
+}
+</code></pre><h2 id="5-использование-inline-функций">5. Использование inline функций</h2>
+<p>Kotlin позволяет использовать inline функции, которые могут значительно повысить производительность вашего кода. Inline функции не создают новый объект при вызове, а вместо этого вставляются непосредственно в вызывающий код.</p>
+<pre tabindex="0"><code>inline fun measureTimeMillis(block: () -&gt; Unit): Long {
+    val start = System.currentTimeMillis()
+    block()
+    return System.currentTimeMillis() - start
+}
+</code></pre><h2 id="6-использование-data-class">6. Использование data class</h2>
+<p>Data class - это специальный тип класса, который автоматически генерирует методы toString(), equals(), hashCode() и copy() на основе свойств класса. Это может значительно упростить ваш код.</p>
+<pre tabindex="0"><code>data class Person(val name: String, val age: Int)
+</code></pre><p>В заключение, Kotlin предлагает множество возможностей для улучшения вашего кода. Вышеуказанные советы помогут вам начать использовать некоторые из наиболее мощных функций Kotlin и сделать ваш код более читабельным и производительным.</p>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Oбновлена 2023-05-20</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Поделиться в Twitter" data-sharer="twitter" data-url="https://zhirnoov.github.io/posts/how-kotlin-code/" data-title="Как улучшить свой код Kotlin"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Поделиться в Facebook" data-sharer="facebook" data-url="https://zhirnoov.github.io/posts/how-kotlin-code/"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Поделиться в Hacker News" data-sharer="hackernews" data-url="https://zhirnoov.github.io/posts/how-kotlin-code/" data-title="Как улучшить свой код Kotlin"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Поделиться в Line" data-sharer="line" data-url="https://zhirnoov.github.io/posts/how-kotlin-code/" data-title="Как улучшить свой код Kotlin"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@7.3.0/icons/line.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Поделиться в 微博" data-sharer="weibo" data-url="https://zhirnoov.github.io/posts/how-kotlin-code/" data-title="Как улучшить свой код Kotlin"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Назад</a></span>&nbsp;|&nbsp;<span><a href="/">Домой</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/posts/my-first-post/" class="prev" rel="prev" title="My First Post"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>My First Post</a>
+            <a href="/posts/how-kotlin-code/" class="next" rel="next" title="Как улучшить свой код Kotlin">Как улучшить свой код Kotlin<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+</div>
+</article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Сделано <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.111.3">Hugo</a> | Тема - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2022 - 2023</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">Дневник Стартапера</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Наверх">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="Посмотреть комментарии">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Копировать в буфер обмена","maxShownLines":50},"comment":{}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

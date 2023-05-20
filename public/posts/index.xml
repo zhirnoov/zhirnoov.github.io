@@ -1,0 +1,36 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Все Статьи - Дневник Стартапера</title>
+        <link>https://zhirnoov.github.io/posts/</link>
+        <description>Все Статьи | Дневник Стартапера</description>
+        <generator>Hugo -- gohugo.io</generator><managingEditor>zhirnoov@yandex.ru (Дневник Стартапера)</managingEditor>
+            <webMaster>zhirnoov@yandex.ru (Дневник Стартапера)</webMaster><copyright>Дневник Стартапера</copyright><lastBuildDate>Sat, 20 May 2023 18:06:11 &#43;0300</lastBuildDate><atom:link href="https://zhirnoov.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Как улучшить свой код Kotlin</title>
+    <link>https://zhirnoov.github.io/posts/how-kotlin-code/</link>
+    <pubDate>Sat, 20 May 2023 18:06:11 &#43;0300</pubDate>
+    <author>Cтартапер</author>
+    <guid>https://zhirnoov.github.io/posts/how-kotlin-code/</guid>
+    <description><![CDATA[Кotlin - это мощный и гибкий язык программирования, который может значительно улучшить ваш код. Ниже приведены несколько советов, которые помогут вам улучшить свой код Kotlin.
+1. Использование функций расширения Функции расширения - это способ добавления новых методов в класс без необходимости изменения самого класса. Kotlin позволяет использовать функции расширения для любого класса, даже для классов стандартной библиотеки.
+fun String.isEmailValid(): Boolean { val pattern = &#34;[a-zA-Z0-9._-]+@[a-z]+\\\\.+[a-z]+&#34;.toRegex() return matches(pattern) } 2. Неизменяемые переменные Kotlin позволяет объявлять переменные, которые нельзя изменять после их объявления.]]></description>
+</item>
+<item>
+    <title>Как улучшить свой код Kotlin</title>
+    <link>https://zhirnoov.github.io/posts/how-kotlin-code/</link>
+    <pubDate>Sat, 20 May 2023 18:06:11 &#43;0300</pubDate>
+    <author>Cтартапер</author>
+    <guid>https://zhirnoov.github.io/posts/how-kotlin-code/</guid>
+    <description><![CDATA[Кotlin - это мощный и гибкий язык программирования, который может значительно улучшить ваш код. Ниже приведены несколько советов, которые помогут вам улучшить свой код Kotlin.
+1. Использование функций расширения Функции расширения - это способ добавления новых методов в класс без необходимости изменения самого класса. Kotlin позволяет использовать функции расширения для любого класса, даже для классов стандартной библиотеки.
+fun String.isEmailValid(): Boolean { val pattern = &#34;[a-zA-Z0-9._-]+@[a-z]+\\\\.+[a-z]+&#34;.toRegex() return matches(pattern) } 2. Неизменяемые переменные Kotlin позволяет объявлять переменные, которые нельзя изменять после их объявления.]]></description>
+</item>
+<item>
+    <title>My First Post</title>
+    <link>https://zhirnoov.github.io/posts/my-first-post/</link>
+    <pubDate>Sat, 20 May 2023 16:37:11 &#43;0300</pubDate>
+    <author>Дневник Стартапера</author>
+    <guid>https://zhirnoov.github.io/posts/my-first-post/</guid>
+    <description><![CDATA[##Hello World!]]></description>
+</item>
+</channel>
+</rss>
