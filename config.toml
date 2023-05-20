@@ -6,8 +6,11 @@ copyright = "Дневник Стартапера"
 enabledRobortsTXT = true
 enabledGitInfo = true
 
+ [params.analytics.yandexMetrica]
+ id = "93652165"
+
  [author]
- name = "Дневник Стартапера"
+ name = "Стартапер"
  email = "zhirnoov@yandex.ru"
  link = ""
 
