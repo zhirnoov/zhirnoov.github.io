@@ -1,12 +1,10 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Дневник Стартапера</title>
-        <link>https://zhirnoov.github.io/</link>
-        <description>Блог о разработке и заработке на мобильных приложениях</description>
+        <title>rustore - Тэг - Дневник Стартапера</title>
+        <link>https://zhirnoov.github.io/tags/rustore/</link>
+        <description>rustore - Тэг - Дневник Стартапера</description>
         <generator>Hugo -- gohugo.io</generator><managingEditor>zhirnoov@yandex.ru (Стартапер)</managingEditor>
-            <webMaster>zhirnoov@yandex.ru (Стартапер)</webMaster><copyright>Дневник Стартапера</copyright><lastBuildDate>Sun, 21 May 2023 01:14:00 &#43;0300</lastBuildDate>
-            <atom:link href="https://zhirnoov.github.io/index.xml" rel="self" type="application/rss+xml" />
-        <item>
+            <webMaster>zhirnoov@yandex.ru (Стартапер)</webMaster><copyright>Дневник Стартапера</copyright><lastBuildDate>Sun, 21 May 2023 01:14:00 &#43;0300</lastBuildDate><atom:link href="https://zhirnoov.github.io/tags/rustore/" rel="self" type="application/rss+xml" /><item>
     <title>Сколько денег я заработал на Android приложении в RuStore</title>
     <link>https://zhirnoov.github.io/posts/how-much-i-earned-on-my-rustore-app/</link>
     <pubDate>Sun, 21 May 2023 01:14:00 &#43;0300</pubDate>

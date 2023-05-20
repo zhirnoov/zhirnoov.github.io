@@ -6,6 +6,9 @@ copyright = "Дневник Стартапера"
 enabledRobortsTXT = true
 enabledGitInfo = true
 
+[params.verification]
+    yandex = "7004f9837580ebc2"
+
  [params.analytics.yandexMetrica]
  id = "93652165"
 
