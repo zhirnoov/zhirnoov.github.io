@@ -6,12 +6,6 @@ copyright = "Дневник Стартапера"
 enabledRobortsTXT = true
 enabledGitInfo = true
 
-[params.verification]
-    yandex = "7004f9837580ebc2"
-
- [params.analytics.yandexMetrica]
- id = "93652165"
-
  [author]
  name = "Стартапер"
  email = "zhirnoov@yandex.ru"
@@ -86,6 +80,9 @@ enabledGitInfo = true
       pre = "<i class='far fa-kiss-wink-heart fa-fw'></i>"
       post = ""
       typeit = false
+
+[params.analytics.yandexMetrica]
+      id = "93652530"
 
 [params.page.seo]
       # image URL
