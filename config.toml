@@ -6,7 +6,6 @@ copyright = "Дневник Стартапера"
 enabledRobortsTXT = true
 enabledGitInfo = true
 
-
  [author]
  name = "Стартапер"
  email = "zhirnoov@yandex.ru"
