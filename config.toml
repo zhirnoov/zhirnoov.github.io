@@ -13,10 +13,9 @@ enabledGitInfo = true
  link = ""
 
  [params]
- googleAnalytics = "G-H1JXTZ0JL5"
  defaulTheme = "dark"
  title = "Дневник стартапера"
- images = ["/logo.png"]
+ googleAnalytics = 'G-H1JXTZ0JL5'
 
 
 [languages]
