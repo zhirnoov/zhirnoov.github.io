@@ -1,19 +1,32 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Дневник Стартапера</title>
-        <link>https://zhirnoov.github.io/</link>
-        <description>Блог о разработке и заработке на мобильных приложениях</description>
-        <generator>Hugo -- gohugo.io</generator><managingEditor>zhirnoov@yandex.ru (Стартапер)</managingEditor>
-            <webMaster>zhirnoov@yandex.ru (Стартапер)</webMaster><copyright>Дневник Стартапера</copyright><lastBuildDate>Sun, 21 May 2023 01:14:00 &#43;0300</lastBuildDate>
-            <atom:link href="https://zhirnoov.github.io/index.xml" rel="self" type="application/rss+xml" />
-        <item>
-    <title>Сколько денег я заработал на Android приложении в RuStore</title>
-    <link>https://zhirnoov.github.io/posts/how-much-i-earned-on-my-rustore-app/</link>
-    <pubDate>Sun, 21 May 2023 01:14:00 &#43;0300</pubDate>
-    <author>Cтартапер</author>
-    <guid>https://zhirnoov.github.io/posts/how-much-i-earned-on-my-rustore-app/</guid>
-    <description><![CDATA[Привет, маслята! В этой статье я расскажу о том сколько же мне удалось заработать денег на мобильном приложении, которое я опубликовал в отечественном магазине приложений Рустор. Я покажу вам полностью статистику по скачивания и заработку. Погнали!
-Способы монетизации приложений RuStore На данный момент в RuStore есть возможность монетизации своего приложения только для юридических лиц. Сюда входят покупки, подписки и т.д Хотя Рустор и не запрещает пользоваться сторонними сервисами для оплаты, но я решил пока монетизироваться через Рекламную Сеть Яндекса (РСЯ).]]></description>
-</item>
-</channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Дневник Стартапера</title>
+    <link>https://zhirnoov.github.io/</link>
+    <description>Recent content on Дневник Стартапера</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>zhirnoov@yandex.ru (Стартапер)</managingEditor>
+    <webMaster>zhirnoov@yandex.ru (Стартапер)</webMaster>
+    <copyright>Дневник Стартапера</copyright>
+    <lastBuildDate>Sun, 21 May 2023 01:14:00 +0300</lastBuildDate><atom:link href="https://zhirnoov.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Сколько денег я заработал на Android приложении в RuStore</title>
+      <link>https://zhirnoov.github.io/posts/how-much-i-earned-on-my-rustore-app/</link>
+      <pubDate>Sun, 21 May 2023 01:14:00 +0300</pubDate>
+      <author>zhirnoov@yandex.ru (Стартапер)</author>
+      <guid>https://zhirnoov.github.io/posts/how-much-i-earned-on-my-rustore-app/</guid>
+      <description>Привет, маслята! В этой статье я расскажу о том сколько же мне удалось заработать денег на мобильном приложении, которое я опубликовал в отечественном магазине приложений Рустор. Я покажу вам полностью статистику по скачивания и заработку. Погнали!
+Способы монетизации приложений RuStore На данный момент в RuStore есть возможность монетизации своего приложения только для юридических лиц. Сюда входят покупки, подписки и т.д Хотя Рустор и не запрещает пользоваться сторонними сервисами для оплаты, но я решил пока монетизироваться через Рекламную Сеть Яндекса (РСЯ).</description>
+    </item>
+    
+    <item>
+      <title>Обо мне</title>
+      <link>https://zhirnoov.github.io/about/</link>
+      <pubDate>Sat, 20 May 2023 16:37:11 +0300</pubDate>
+      <author>zhirnoov@yandex.ru (Стартапер)</author>
+      <guid>https://zhirnoov.github.io/about/</guid>
+      <description>##Hello World!</description>
+    </item>
+    
+  </channel>
 </rss>

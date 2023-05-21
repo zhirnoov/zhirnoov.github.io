@@ -81,6 +81,9 @@ enabledGitInfo = true
       post = ""
       typeit = false
 
+ [params.verification]
+    google = "BoLSGx2zlxdVPzFkwvr9zMlNp4QcCKhhKUVK_dba-e4"
+
  [params.analytics]
   enable = true
   [params.analytics.google]
