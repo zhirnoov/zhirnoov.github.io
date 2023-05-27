@@ -1,0 +1,17 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>apple - Тэг - Дневник Стартапера</title>
+        <link>https://zhirnoov.github.io/tags/apple/</link>
+        <description>apple - Тэг - Дневник Стартапера</description>
+        <generator>Hugo -- gohugo.io</generator><language>ru</language><managingEditor>zhirnoov@yandex.ru (Стартапер)</managingEditor>
+            <webMaster>zhirnoov@yandex.ru (Стартапер)</webMaster><copyright>Дневник Стартапера</copyright><lastBuildDate>Sun, 28 May 2023 01:10:56 &#43;0300</lastBuildDate><atom:link href="https://zhirnoov.github.io/tags/apple/" rel="self" type="application/rss+xml" /><item>
+    <title>Rustore для айфона. Когда появится магазин приложений Rustore для iOS?</title>
+    <link>https://zhirnoov.github.io/posts/rustore-ios/</link>
+    <pubDate>Sun, 28 May 2023 01:10:56 &#43;0300</pubDate>
+    <author>Стартапер</author>
+    <guid>https://zhirnoov.github.io/posts/rustore-ios/</guid>
+    <description><![CDATA[25 мая 2022 года была запущена бета-версия отечественного магазина приложений Rustore при поддержке Министерства цифрового развития, связи и массовых коммуникаций РФ. С тех пор прошло достаточно времени и рустор стал предустанавливаться на ввозимые мобильные устройства, а посещаемость маркетплейса превысила 10 млн в месяц и продолжает расти. Рустор оставил позади своих конкурентов в лице NashStore, RuMarket и других.
+К сожалению, на данный момент магазин приложений доступен лишь для владельцев Android устройств*]]></description>
+</item>
+</channel>
+</rss>
