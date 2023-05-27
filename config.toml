@@ -102,3 +102,12 @@ enabledGitInfo = true
       [params.page.seo.publisher]
         name = "Дневник стартапера"
         logoUrl = "/images/avatar.png"
+
+
+[params.seo]
+    # image URL
+    # 图片 URL
+    image = "/images/avatar.png"
+    # thumbnail URL
+    # 缩略图 URL
+    thumbnailUrl = "/images/avatar.png"

@@ -41,4 +41,4 @@ tags: ["rustore", "монетизация"]
 
 ![](money.png "Заработок на рекламе Яндекса и MyTarget")
 
-Присоединяйтесь к лучшему [Telegam-чату про заработок в RuStore](https://t.me/rustorechat)!
+Присоединяйтесь к лучшему [Telegram-чату про заработок в RuStore](https://t.me/rustorechat)!
