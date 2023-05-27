@@ -4,7 +4,16 @@
         <link>https://zhirnoov.github.io/posts/</link>
         <description>Все Статьи | Дневник Стартапера</description>
         <generator>Hugo -- gohugo.io</generator><language>ru</language><managingEditor>zhirnoov@yandex.ru (Стартапер)</managingEditor>
-            <webMaster>zhirnoov@yandex.ru (Стартапер)</webMaster><copyright>Дневник Стартапера</copyright><lastBuildDate>Sun, 21 May 2023 01:14:00 &#43;0300</lastBuildDate><atom:link href="https://zhirnoov.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>zhirnoov@yandex.ru (Стартапер)</webMaster><copyright>Дневник Стартапера</copyright><lastBuildDate>Sat, 27 May 2023 23:36:00 &#43;0300</lastBuildDate><atom:link href="https://zhirnoov.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>В RuStore появилась монетизация для самозанятых (физ лиц) разработчиков</title>
+    <link>https://zhirnoov.github.io/posts/rustore-monetization/</link>
+    <pubDate>Sat, 27 May 2023 23:36:00 &#43;0300</pubDate>
+    <author>Cтартапер</author>
+    <guid>https://zhirnoov.github.io/posts/rustore-monetization/</guid>
+    <description><![CDATA[В среду, 24 мая, RuStore в тестовом режиме запустил монетизацию для физических лиц, которые оформились как самозанятые. Разработчики обнаружили возможность подключения монетизации в консоли разработчика). Как сообщает поддержка рустор, возможность монетизации для обычных физлиц(не самозанятых) появится уже в ближайшее время.
+RuStore запускает возможность монетизации для физических лиц и самозанятых Подключения монетизации Для того, чтобы подключить монетизацию вам потребуется предоставить доступ к сервису “VK Pay самозанятые” в партнерах “Мой налог” и указать свои банковские реквизиты для выплат.]]></description>
+</item>
+<item>
     <title>Сколько денег я заработал на Android приложении в RuStore</title>
     <link>https://zhirnoov.github.io/posts/how-much-i-earned-on-my-rustore-app/</link>
     <pubDate>Sun, 21 May 2023 01:14:00 &#43;0300</pubDate>
