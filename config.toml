@@ -66,7 +66,7 @@ enabledGitInfo = true
     # weight when arranging icons (the greater the weight, the later the icon is positioned)
     weight = 1
     # your social ID
-    id = "@zhirnoov"
+    id = "rustorechat"
     # prefix of your social link
     prefix = "https://t.me/"
     # content hovering on the icon
