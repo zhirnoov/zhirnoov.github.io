@@ -3,7 +3,7 @@ defaultContentLanguage = "ru"
 title = 'Дневник Стартапера'
 theme = 'LoveIt'
 copyright = "Дневник Стартапера"
-enabledRobortsTXT = true
+enabledRobortsTXT = false
 enabledGitInfo = true
 
  [author]
@@ -15,6 +15,14 @@ enabledGitInfo = true
  defaulTheme = "dark"
  title = "Дневник стартапера"
  googleAnalytics = 'G-H1JXTZ0JL5'
+
+
+
+ [sitemap]
+  changefreq = 'daily'
+  filename = 'sitemap.xml'
+  priority = 0.5
+
 
 
 [languages]
